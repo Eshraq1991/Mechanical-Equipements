@@ -13,7 +13,9 @@ var io 			= require('socket.io')(server);
 
 var PORT = process.env.PORT || 8000;
 
-
+app.get('/', function(req, res){
+    res.sendfile('index.html');
+});
 require ('./config/middleware.js')(app, express);
 // require ('./config/routes.js')(app, express);
 // require ('./config/socket.handler.js');
