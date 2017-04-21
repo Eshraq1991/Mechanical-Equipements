@@ -5,8 +5,7 @@ angular.module('MEQ', [
 .config(function ($routeProvider, $httpProvider) {
   $routeProvider
   .when('/',{
-      templateUrl: 'app/Home/Home.html',
-      controller: 'HomeController'
+      templateUrl: 'app/Home/Home.html'
     })
     .when('/home',{
       templateUrl: 'app/Home/Home.html',
@@ -33,15 +32,15 @@ angular.module('MEQ', [
       controller: 'AccessoryController'
     })
     .when('/Hydraulic',{
-      templateUrl:'app/Hydraulic/Hydraulic.html',
+      templateUrl:'app/Hydraulic/hydraulic.html',
       controller: 'HydraulicController'
     })
     .when('/Hydrotest',{
-      templateUrl:'app/Hydrotest/Hydrotest.html',
+      templateUrl:'app/Hydrotest/hydrotest.html',
       controller: 'HydrotestController'
     })
     .when('/Testing',{
-      templateUrl:'app/Testing/Testing.html',
+      templateUrl:'app/Testing/testing.html',
       controller: 'TestingController'
     })
     .when('/funit',{
