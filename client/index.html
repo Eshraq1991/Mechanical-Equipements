@@ -1,0 +1,68 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Hydrotechnics</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="lib/angular/angular.js"></script>
+      <script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.2.0/ui-bootstrap-tpls.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
+      <script type="text/javascript" src="./app/app.js"></script>
+      <script type="text/javascript" src="./app/Home/Home.js"></script>
+      <script src="lib/angular-route/angular-route.js"></script>
+  </head>
+  <body ng-app="MEQ">
+    <nav class="navbar navbar-inverse navigation">
+      <div class="container-fluid main_header">
+        <div class="navbar-header">
+          <img src="images/logo1.svg" class="logo" />
+        </div>
+        <ul class="nav navbar-nav ulnav">
+          <li class="active"><a href="#/home">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#/pump">Product Line
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#/pump">Pump</a></li>
+              <li><a href="#/motor">Motor</a></li> 
+              <li><a href="#/valve">Valves</a></li>
+              <li><a href="#/filtration">Filtration</a></li> 
+              <li><a href="#/accessory">Accessory</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#/Hydraulic">Units
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#/Hydraulic">Hydraulic power pack</a></li>
+              <li><a href="#/Hydrotest">Hydrotest unit</a></li>
+              <li><a href="#/Testing">Testing machine</a></li>
+              <li><a href="#/funit">Filtration unit</a></li>
+            </ul>
+          </li> 
+          <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#/aboutus">About Us
+            </a>
+          </a>
+          </li>  
+          <li>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#/contactus">Contact Us
+            </a>
+          </a>
+          </li> 
+        </ul>
+      </div>
+      
+    </nav>
+    <div id="slideshow">
+
+    <div class="">
+      <div ng-view ></div>
+    </div>
+  </body>
+</html>

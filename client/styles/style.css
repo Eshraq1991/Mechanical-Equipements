@@ -1,0 +1,47 @@
+.login-form {
+  margin-top: 50px;
+}
+html{
+  background-color: #dce3e8;
+}
+  .carousel-inner > .item > .image{
+     position: relative;
+    float: left;
+    width:  100%;
+    height: 300px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
+
+.logo{
+	float: right;
+	height: 100px;
+	width: 100px;
+}
+.main_header{
+  float: left;
+  height: 100px;
+  color: blue !important;
+}
+
+.pumps{
+  margin-top:50px;
+}
+.navigation{
+  background-color:#dce3e8 !important; 
+  margin-bottom: 0px !important;
+}
+.ulnav{
+  padding-top:20px !important;
+  padding-left:50px !important;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #d64848 !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  background-color: #d64848 !important;
+}
