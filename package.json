@@ -15,8 +15,7 @@
     "Mechanical-Equipement"
   ],
   "scripts": {
-    "start": "nodemon server.js",
-    "postinstall": "bower install"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
