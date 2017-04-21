@@ -4,6 +4,10 @@ angular.module('MEQ', [
 ])
 .config(function ($routeProvider, $httpProvider) {
   $routeProvider
+  .when('/',{
+      templateUrl: 'app/Home/Home.html',
+      controller: 'HomeController'
+    })
     .when('/home',{
       templateUrl: 'app/Home/Home.html',
       controller: 'HomeController'
